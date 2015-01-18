@@ -272,7 +272,12 @@ class ViewController: UIViewController, ImageSelectedProtocol, UICollectionViewD
     //ACTION: filter alert
     let filterOption = UIAlertAction(title: NSLocalizedString("Apply Filter to your selected Image", comment: "Translate: Apply Filter to your selected Image"), style: UIAlertActionStyle.Default) { (action) -> Void in
     println("FILTER ACTION fired")
-    self.showFilter()
+      
+    
+      if( self.mainImageView.image != nil){
+        self.showFilter()
+      }
+    
     }
     self.alertController.addAction(filterOption)
     
