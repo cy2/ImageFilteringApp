@@ -95,6 +95,8 @@ class ViewController: UIViewController, ImageSelectedProtocol, UICollectionViewD
         //add the main image subview to the root container
       rootView.addSubview(self.mainImageView)
     
+    self.mainImageView.userInteractionEnabled = true
+  
         self.mainImageView.setTranslatesAutoresizingMaskIntoConstraints(false)
     
           //test where main image displays
@@ -269,8 +271,8 @@ class ViewController: UIViewController, ImageSelectedProtocol, UICollectionViewD
     // double tap handler
     let doubleTapOnMainImageGestureRecognizer = UITapGestureRecognizer(target: self, action: "doubleTapOnMainImgToRequestFilters:")
     doubleTapOnMainImageGestureRecognizer.numberOfTapsRequired = 2
-    
     self.mainImageView.addGestureRecognizer(doubleTapOnMainImageGestureRecognizer)
+    
     
   }
   
@@ -654,15 +656,13 @@ class ViewController: UIViewController, ImageSelectedProtocol, UICollectionViewD
   
   //MARK: Handlers for Touch Gesture Recognizers
  
-    //double tap action on the main image -> brings up the list of filters
+  //double tap action on the main image -> brings up the list of filters
   func doubleTapOnMainImgToRequestFilters(sender : UITapGestureRecognizer){
-
-    if sender.state == .Ended {
-      self.showFilter()
-      println("default double tap case executed")
-      
-    }
+ println("default double tap case executed")
     
+    if( self.mainImageView.image != nil){
+      self.showFilter()
+    }
     
   }
   
