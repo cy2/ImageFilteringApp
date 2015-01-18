@@ -17,7 +17,7 @@
 		FFABACC81A6577BF00AC8951 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABACC71A6577BF00AC8951 /* GalleryViewController.swift */; };
 		FFABACCA1A65794300AC8951 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABACC91A65794300AC8951 /* GalleryCell.swift */; };
 		FFABACE81A65EFD400AC8951 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABACE71A65EFD400AC8951 /* Thumbnail.swift */; };
-		FFF9C1B61A68717100F5F76D /* MainImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C1B51A68717100F5F76D /* MainImage.swift */; };
+		FFED090D1A6C29FB004273C3 /* MainImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED090C1A6C29FB004273C3 /* MainImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		FFABACE71A65EFD400AC8951 /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		FFE9BC771A69C01A00B93269 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		FFE9BC7F1A6B909B00B93269 /* FilterMyPhotos_Notes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterMyPhotos_Notes.playground; sourceTree = SOURCE_ROOT; };
-		FFF9C1B51A68717100F5F76D /* MainImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainImage.swift; path = ../MainImage.swift; sourceTree = "<group>"; };
+		FFED090C1A6C29FB004273C3 /* MainImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +141,8 @@
 		FFE9BC7C1A6A440D00B93269 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FFF9C1B51A68717100F5F76D /* MainImage.swift */,
 				FFABACE71A65EFD400AC8951 /* Thumbnail.swift */,
+				FFED090C1A6C29FB004273C3 /* MainImage.swift */,
 				FFABACC91A65794300AC8951 /* GalleryCell.swift */,
 			);
 			name = Model;
@@ -267,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFABACCA1A65794300AC8951 /* GalleryCell.swift in Sources */,
-				FFF9C1B61A68717100F5F76D /* MainImage.swift in Sources */,
+				FFED090D1A6C29FB004273C3 /* MainImage.swift in Sources */,
 				FFABACE81A65EFD400AC8951 /* Thumbnail.swift in Sources */,
 				FFABACC81A6577BF00AC8951 /* GalleryViewController.swift in Sources */,
 				FFABACA81A6470E300AC8951 /* ViewController.swift in Sources */,
