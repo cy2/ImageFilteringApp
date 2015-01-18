@@ -183,24 +183,6 @@ class ViewController: UIViewController, ImageSelectedProtocol, UICollectionViewD
     self.navigationItem.rightBarButtonItem = self.shareButton
     
     
-    /*ACTION: Camera view controler with AVFoundation
-    if UIImagePickerController.isSourceTypeAvailable(AVFoundation ) {
-    
-    //create the camera alert
-    let cameraOption = UIAlertAction(title: "AVFoundation", style: .Default, handler: { (action) -> Void in
-    
-    println("AVFoundation ACTION fired")
-    
-    
-    })
-    //add the action
-    self.alertController.addAction(cameraOption)
-    
-    }
-    */
-    
-    
-    
     
     //ACTION: View Gallery
     
