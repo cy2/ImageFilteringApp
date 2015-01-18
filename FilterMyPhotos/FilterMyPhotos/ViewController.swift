@@ -139,7 +139,9 @@ class ViewController: UIViewController, ImageSelectedProtocol, UICollectionViewD
     
     //color the button
     photoButton.setTitleColor(UIColor.redColor(), forState: .Normal)
-    
+    //photoButton.setBackgroundImage(UIImage(contentsOfFile: "FilterMyPhotos_blankBackground.JPG"), forState: UIControlState.Normal)
+ 
+
     
     //LOCALIZED STRING: Photos Button
     //photoButton.setTitle("Photos", forState: .Normal)
