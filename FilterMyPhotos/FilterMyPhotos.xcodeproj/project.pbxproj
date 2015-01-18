@@ -47,7 +47,6 @@
 		FFABACCF1A65C65200AC8951 /* Coursework.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Coursework.playground; sourceTree = "<group>"; };
 		FFABACE71A65EFD400AC8951 /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		FFE9BC771A69C01A00B93269 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		FFE9BC7F1A6B909B00B93269 /* FilterMyPhotos_Notes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterMyPhotos_Notes.playground; sourceTree = SOURCE_ROOT; };
 		FFED090C1A6C29FB004273C3 /* MainImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +130,6 @@
 		FFABACD01A65C65A00AC8951 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				FFE9BC7F1A6B909B00B93269 /* FilterMyPhotos_Notes.playground */,
 				FFABACCF1A65C65200AC8951 /* Coursework.playground */,
 			);
 			name = Playgrounds;
